@@ -1,0 +1,76 @@
+body{
+    background-image: url("img/background1.png");
+    background-size:cover;
+    position: relative; 
+    min-width: 100%;
+    min-height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    text-align: center;
+    width: 98.5%;
+    color:rgb(2, 13, 44);
+}
+
+.title h1 { font-size: 70px; }
+
+.gameImage{
+    justify-content: center;
+    width: 98.5%;
+    height: 200%;
+    top: 50%;
+    display: flex;
+}
+.imageHoder{ width: 620px; }
+
+.imageHoder img{ width: 150px; }
+
+.leftDiv{
+    float: left;
+    margin-left: -480px; 
+    border-radius: 10px; 
+    border: 3px ;
+    background-color:transparent;
+    width: 350px;
+    padding-bottom: -300px;
+}
+
+.rightDiv{
+    float:right;
+    margin-right: -480px; 
+    border-radius: 2px; 
+    width: 350px; 
+}
+
+.gameImage .leftDiv .leftDivTop{
+    border-radius: 10px;  
+    background-color: brown;
+}
+
+.storeBoard{
+    border-radius: 2px; 
+}
+
+.rightDiv button{
+    margin-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color:transparent;
+    outline: none;
+    font-size: 30px;
+    font-style: oblique;
+    color:rgb(2, 13, 44);
+}
+.rightDiv .startBtn{ margin-top: 80px; }
+
+.score{
+    font-size: 100px;
+    text-align: center;
+}
+

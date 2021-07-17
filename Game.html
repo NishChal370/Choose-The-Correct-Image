@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>choose The correct Box</title>
+        <link  rel="stylesheet" href="Game.css">
+        <script src="Game.js"></script>
+
+    </head>
+    <body>
+        <div class="title">
+            <h1>Choose the Correct Box</h1>
+            <h2>You should choose the two boxes that matches to gain One Point</h2>
+            <h style="font-size:medium; color: red;">Click start button to Start Playing</h>
+        </div>
+        <div class="gameImage">
+
+            <div class="leftDiv" >
+                
+                <div class="storeBoard" style="background-color: aliceblue; padding-bottom: 20px; margin-top: -20px;">
+                    <div class="leftDivTop" >
+                        <h1 style="text-align: center; background-color: transparent; color: whitesmoke;">Score Board</h1>
+
+                    </div>
+                    <h1 class="score">0</h1>
+                </div>
+                
+            </div>
+
+            <div class="imageHoder">
+                <img id="btn1" onclick="btn1click()" src="img/green box.png">
+                <img id="btn2" onclick="btn2click()" src="img/green box.png">
+                <img id="btn3" onclick="btn3click()" src="img/green box.png">
+                <img id="btn4" onclick="btn4click()" src="img/green box.png">
+                <br>
+                <img id="btn5" onclick="btn5click()" src="img/green box.png">
+                <img id="btn6" onclick="btn6click()" src="img/green box.png">
+                <img id="btn7" onclick="btn7click()" src="img/green box.png">
+                <img id="btn8" onclick="btn8click()" src="img/green box.png">
+                <!-- <br> -->
+            </div>
+
+            <div class="rightDiv">
+                <button class="startBtn" onclick="strt()" >Play</button>
+                <!-- <br><br> -->
+                <button class="stopBtn" onclick="stp()">End</button>
+            </div>
+            
+            
+        </div>
+
+    </body>
+</html>
